@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact us</title>
+    <link rel="stylesheet" href="css/main.css" type="text/css" />
+  </head>
+  <body>
+    <header>
+      <h1>Contact John's Coffee Shop</h1>
+      <nav>
+        <ul>
+          <li>
+            <a href="/Restaurant/index.html">Back to Home</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <figure>
+        <img
+          src="/Restaurant/Images/iced_coffee.avif"
+          alt="A cup of iced coffee."
+          width="500"
+          height="350"
+          loading="lazy"
+        />
+      </figure>
+      <figcaption>
+        <p>Don't hesitate to try our iced coffee, mainly during summer!</p>
+      </figcaption>
+      <hr>
+      <article>
+        <h2>Our Contact Form</h2>
+        <form action="https://httpbin.org/get" method="get">
+            <fieldset>
+                <legend>Send us a Message</legend>
+            <p>
+                <label for="name">Name</label>
+                <input type="text" id="name" placeholder="Name and surname" autocomplete="on" required autofocus>
+            </p>
+            <p>
+                <label for="email">E-mail</label>
+                <input type="text" id="email" placeholder="Your email" required>
+            </p>
+            <p>
+                <label for="message">Your message:</label>
+                <br>
+                <textarea name="message" id="message" rows="10" cols="50" placeholder="Enter your message here!"></textarea>
+            </p>
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+          </fieldset>
+      </article>
+    </main>
+    <hr>
+    <footer>
+        <p>Copyright &#169; John's Coffee Shop</p>
+    </footer>
+  </body>
+</html>
